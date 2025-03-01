@@ -1,0 +1,30 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">About the Model</h2>
+                <p class="card-text">
+                    Pediatric medulloblastoma is a devastating brain cancer that shatters childhoods in an instant, stealing balance, clarity, and even the simplest joys. It strikes the cerebellum, the brain's control center for movement, and spreads like wildfire through the cerebrospinal fluid, making time the enemy. The first signs—persistent headaches, dizziness, unsteady steps—are often dismissed, until the diagnosis changes everything. Yet, in the face of fear, there is resilience. Thanks to groundbreaking research, once-impossible treatments are now saving lives, offering not just survival but hope. Every breakthrough brings us closer to a future where no child has to fight this battle.
+                </p>
+                <p class="card-text">
+                    Our model is trained to detect and classify between 4 different classes:
+                    "No Pediatric Medulloblastoma is Present", "T1", "T2", and "Not Pediatric Medulloblastoma but still bad", 
+                    providing real-time analysis of the uploaded brain MRI images.
+                </p>
+                
+                <h3>Technical Details</h3>
+                <ul>
+                    <li>Backend: Flask (Python)</li>
+                    <li>Frontend: HTML, CSS, JavaScript</li>
+                    <li>Model: TensorFlow.js</li>
+                    <li>UI Framework: Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

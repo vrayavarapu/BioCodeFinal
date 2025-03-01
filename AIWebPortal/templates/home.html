@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Welcome to AI Model Demo</h1>
+                <p class="card-text">
+                    This website demonstrates the integration of a TensorFlow.js model with a Flask backend.
+                    The model is loaded and executed directly in your browser using TensorFlow.js.
+                </p>
+                <div class="d-grid gap-2">
+                    <a href="/inference" class="btn btn-primary">Try the Model</a>
+                    <a href="/about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
